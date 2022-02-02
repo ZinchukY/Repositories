@@ -27,24 +27,22 @@ let n9 = parseInt(Math.random()*10000) ;
 
 
 //2-4
-let book = {
-    book1: {
+
+book1 = {
          name:'Think and grow rich',
          pages_number:'238',
          genre: 'Self-help book',
          author: 'Napoleon hill'
-    },
-
-    book2:{
+ }
+book2 = {
         name: 'The 7 Habits of Highly Effective People',
         pages_number: '381',
         genre: 'Nonfiction business',
         author:'Steven Covey'
-    }
+ }
 
-}
-console.log(book.book1)
-console.log(book.book2)
+let book = [book1, book2]
+console.log(book)
 
 
 //5
