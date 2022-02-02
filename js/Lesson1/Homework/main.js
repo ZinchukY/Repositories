@@ -101,7 +101,10 @@ let person = [firstName, middleName, lastName]
 // prompt(lastName);
 
 //7
-prompt("Вітаю " +middleName + " " + lastName + " . Тобі 20 років.");
+let name = prompt('Ваше імя:')
+let midname = prompt (' По-батькові:')
+let age = prompt('Ваш вік:')
+console.log("Вітаю " + name + " " + midname + " . Тобі " +age + " років.");
 
 //8
 var a = 100;
