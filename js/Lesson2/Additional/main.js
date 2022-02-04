@@ -27,11 +27,11 @@
 
 
 //4
-let chosenNumber = parseInt(prompt('Введіть будь яке число будь яке число від -100 до +100: '));
-let number = (0 > chosenNumber && chosenNumber >=-100 ) ? 'Число негативне' :
-    (chosenNumber > 0 && chosenNumber <=100) ? 'Число позитивне' :
-        (chosenNumber === 0) ? 'Це число нуль':
-            'Ви ввели число яке не входить у вказаний діапазон';
-
-alert(number)
+// let chosenNumber = parseInt(prompt('Введіть будь яке число будь яке число від -100 до +100: '));
+// let number = (0 > chosenNumber && chosenNumber >=-100 ) ? 'Число негативне' :
+//     (chosenNumber > 0 && chosenNumber <=100) ? 'Число позитивне' :
+//         (chosenNumber === 0) ? 'Це число нуль':
+//             'Ви ввели число яке не входить у вказаний діапазон';
+//
+// alert(number)
 
