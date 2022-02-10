@@ -113,12 +113,3 @@
 //     return arr;
 // }document.write(randomPush(15, 50))
 
-
-function reverse(arr) {
-    let arr = [];
-    for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
-        newArr[ri] = newArr[i];
-    }
-
-    return newArr;
-}console.log(reverse())
