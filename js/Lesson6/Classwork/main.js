@@ -95,3 +95,15 @@ let coursesAndDurationArray = [
 // //відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 // let filter = coursesAndDurationArray.filter((value) => (value.monthDuration > 5))
 // console.log(filter);
+
+// //Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
+// let cutString = (str, n) => {
+//     const res = [];
+//     while (str.length){
+//         res.push(str.substring(0, n))
+//         str = str.slice(n)
+//     }
+//     console.log(res)
+//     return res;
+// };
+// document.write(cutString('наслаждение', 3))
