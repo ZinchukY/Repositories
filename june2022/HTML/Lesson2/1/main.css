@@ -1,0 +1,51 @@
+.container{
+    width: 1000px;
+    height: 775px;
+    background: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Widgets{
+    background: #246abc;
+    color: white;
+    justify-content: center;
+}
+.container1{
+    color: white;
+    flex-direction: row;
+}
+#Big{
+    background: #18467b;
+}
+#Bigger{
+    background: #18467b;
+    margin-left: 20px;
+}
+#Huge{
+    background: #18467b;
+    margin-left: 20px;
+}
+
+#Contact{
+    background: #246abc;
+    color: white;
+    justify-content: center;
+    height: 340px;
+
+}
+.small_box {
+    width: 190px;
+    justify-content: center;
+}
+.w610{
+    width: 610px;
+}
+.h190{
+    height: 190px;
+}
+.dpsl_fl{
+    display: flex;
+}
+.al_items{
+    align-items: center;
+}
