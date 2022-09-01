@@ -1,0 +1,12 @@
+.post{
+    background: cornflowerblue;
+}
+
+.comments {
+    background: navajowhite;
+}
+.comments > li {
+    width: 100px;
+    background: coral;
+    margin: 10px;
+}
