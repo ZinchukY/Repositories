@@ -1,8 +1,8 @@
-const User = ({user, getUserId}) => {
+const User = ({user}) => {
     return(
         <div>
-            <h3>{user.id} --{user.name}</h3>
-            <button onClick={() => getUserId(user.id)}>Click me</button>
+            <h3>{user.id} -- {user.name} -- {user.surname}</h3>
+            <p>{user.email}</p>
         </div>
     )
 
