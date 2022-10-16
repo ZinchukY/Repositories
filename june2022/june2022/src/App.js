@@ -1,19 +1,14 @@
-import {Route, Routes} from "react-router-dom";
-
-import {MainLayout} from "./layouts/MainLayout";
-import {CommentsPage, PostsPage, SingleUserPage, UsersPage} from "./pages";
+import {CarForm} from './components/carForm/CarForm';
+import {Cars} from './components/cars/Cars';
 
 const App = () => {
 
     return (
-        <Routes>
-            <Route path={'/'} element={<MainLayout/>}>
-                <Route path={'users'} element={<UsersPage/>}/>
-                <Route path={'users/:id'} element={<SingleUserPage/>}/>
-                <Route path={'posts'} element={<PostsPage/>}/>
-                <Route path={'comments'} element={<CommentsPage/>}/>
-            </Route>
-        </Routes>
-    )
+        <div>
+            <CarForm/>
+            <hr/>
+            <Cars/>
+        </div>
+    );
 }
 export {App};
